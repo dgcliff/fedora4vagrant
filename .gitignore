@@ -1,0 +1,5 @@
+# Mac OSX Finder Junk
+.DS_Store
+
+# Vagrant Box and stuff
+.vagrant
