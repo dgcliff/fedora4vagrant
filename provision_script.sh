@@ -13,7 +13,7 @@ echo debconf shared/accepted-oracle-license-v1-1 seen true | sudo debconf-set-se
 echo debconf shared/accepted-oracle-license-v1-1 select true | sudo debconf-set-selections
 sudo apt-get install oracle-java7-installer --yes
 
-sudo sed -i 's/Xmx128m/Xmx768m -Dfcrepo.home=/home/vagrant/f4home/g' /etc/default/tomcat7
+sudo sed -i 's/Xmx128m/Xmx768m -Dfcrepo.home=\/home\/vagrant\/f4home/g' /etc/default/tomcat7
 sudo sh -c 'echo "JAVA_HOME=/usr/lib/jvm/java-7-oracle" >> /etc/default/tomcat7'
 sudo sh -c 'echo "PATH=/usr/lib/jvm/java-7-oracle/bin:$PATH" >> /etc/default/tomcat7'
 
