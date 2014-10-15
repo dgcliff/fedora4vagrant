@@ -7,9 +7,9 @@ Simple setup for fedora commons 4 and Vagrant
 Virtualbox and Vagrant installed
 
 ### Steps to a running instance
-Download the latest release at https://github.com/dgcliff/fedora4vagrant/releases
-Unzip, and cd into the directory
-Run this command - "vagrant up"
+* Download the latest release at https://github.com/dgcliff/fedora4vagrant/releases
+* Unzip, and cd into the directory
+* Run this command - "vagrant up"
 
 When the process has completed (it can take a while, it installs and downloads several things), you should have a fedora4 instance running at:
 
