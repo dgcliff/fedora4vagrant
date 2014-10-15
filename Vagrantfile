@@ -5,10 +5,6 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  # Memory for vmware
-  config.vm.provider "vmware_fusion" do |vm|
-    vm.customize ['modifyvm', :id, '--memory', '1024']
-  end
 
   # Memory for Virtualbox
   config.vm.provider :virtualbox do |vb|
