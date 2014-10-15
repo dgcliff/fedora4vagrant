@@ -9,7 +9,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network :forwarded_port, guest: 8080, host: 8080
 
   # Install tomcat and java
-  # config.vm.provision "shell", path: "provision_script.sh", privileged: false
+  config.vm.provision "shell", path: "provision_script.sh", privileged: false
   
   # All Vagrant configuration is done here. The most common configuration
   # options are documented and commented below. For a complete reference,
