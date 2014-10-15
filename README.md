@@ -14,3 +14,6 @@ Virtualbox and Vagrant installed
 When the process has completed (it can take a while, it installs and downloads several things), you should have a fedora4 instance running at:
 
 http://localhost:8080/fcrepo-webapp-4.0.0-beta-03/rest
+
+### Modifications
+If you want to edit configuration as part of a demo, within the same directory run the command "vagrant ssh" and you should be logged into the running instance.
